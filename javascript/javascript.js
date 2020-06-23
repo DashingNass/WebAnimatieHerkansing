@@ -74,7 +74,7 @@ p.onmouseover = logMouseOver;
 p.onmouseout = logMouseOut;
 
 function logMouseOver() {
-  p.innerHTML = 'Verkeerde plek, probeer het opnieuw';
+  p.innerHTML = 'Je bent er bijna, maar dit is de verkeerde plek.';
 }
 
 function logMouseOut() {

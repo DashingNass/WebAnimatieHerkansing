@@ -57,13 +57,12 @@ color: #040202;
 }
 p {
     bottom: 2.5em;
-    color: black;
+    color: #ffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
     position: absolute;
     text-align: center;
 }
-
 
 /*================================================*/
 /*                   TOOLTIP HOVER                */
@@ -73,13 +72,14 @@ p {
 /*De afbeelding van de button aan de rechterkant van het scherm*/
 .infobutton {
     height: 2em;
-/*    line-height: 1.000em;*/
+    line-height: 1.000em;
     margin-right: 1.5em;
     margin-top: 1.5em;
     position: absolute;
     right: 0;
     top: 0;
     width: 2em;
+    cursor: help;
 }
 /*Kleine blokje die verschijnt*/
 header>.tooltip {
@@ -90,8 +90,6 @@ header>.tooltip {
     margin-bottom: 35em;
     margin-left:-9em;
     background-color: transparent;
-
-
 }
 
 /*Kleine blokje van de tooltip die verschijnt*/
@@ -118,6 +116,8 @@ span {
 }
 
 
+/*oude menu styling*/
+/*
 nav{
     position: absolute;
     margin-top: -38.5em;
@@ -140,29 +140,82 @@ nav a:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1em;
+    cursor: pointer;
+
+}
+*/
+
+
+
+.nav {
+position: absolute;
+    padding-right:50em;
+    padding-bottom: 34em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 1px solid #EAEAEB;
+    text-align: center;
+    height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration:none;
+    color: white;
+    margin: 0 12px;
+    line-height: 70px;
 
 }
 
 
-/*rood*/
-nav a:active:nth-child(1){
+.new {
+    color: #54D17A;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+
+.menu a:active:nth-child(1){
     color: #FF495F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
 }
-
-/*geel*/
-nav a:active:nth-child(2){
+.menu a:active:nth-child(2){
     color: #CBC266;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
 }
-
-/*groen*/
-nav a:active:nth-child(3){
+.menu a:active:nth-child(3){
     color: #00D65B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+.menu a:active:nth-child(4){
+    color: #5F6BD8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
 }
 
-/*blauw*/
-nav a:active:nth-child(4){
-    color: #5F6BD8;
-}
 
 
 
@@ -181,7 +234,6 @@ nav a:active:nth-child(4){
     color: #FFF;
     font-size: 1.5em;
     left: 3em;
-
     text-shadow: 0 0 2px #FFF;
 }
 #secretcandy {
@@ -221,6 +273,7 @@ span p {
 }
 
 
+
 /*================================================*/
 /*                 ROZE HANDSCNOEN                */
 /*================================================*/
@@ -251,8 +304,6 @@ svg#handschoen:hover {
     animation: wobble-hor-bottom infinite;
     animation-duration: 1.2s;
     transform: rotate(50deg);
-    cursor: url(/design/pezcandyform.svg), auto;
-
 
 }
 
@@ -266,6 +317,7 @@ svg#handschoen4 {
     overflow: hidden;
     background-color: transparent;
     animation: rotation 2s  linear;
+
 }
 @keyframes rotation {
         from {
@@ -279,7 +331,6 @@ svg#handschoen4:hover {
     animation: wobble-hor-bottom infinite;
     animation-duration: 1.2s;
     transform: rotate(50deg);
-    cursor: url(/design/pezcandyform.svg), auto;
 
 
 }
@@ -287,6 +338,7 @@ svg#handschoen4:hover {
 /*Styling van de roze handschoen*/
     .pez0{
         fill:#AF589D;
+
 }
     .pez1{
         fill:#A0428E;
@@ -454,9 +506,6 @@ svg#handschoen4:hover {
 }
 
 */
-
-
-
 
 
 
@@ -798,7 +847,122 @@ svg#handschoen4:hover {
 /*                  MEDIA QUERIES                 */
 /*================================================*/
 
+@media(min-width: 20em) and (max-width: 47em){
+
+   h1 {
+    top:9em;
+    font-family: 'pez_fontregular';
+    font-size: 3em;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+h1:hover{
+color: #040202;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, black);
+}
+p {
+    opacity: 0;
+    bottom: 2.5em;
+    color: #ffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+   .infobutton {
+       overflow: hidden;
+    margin-right: 2em;
+    margin-top:1.4em;
+}
+    header>.tooltip {
+    margin-bottom: 30em;
+    margin-right:42em;
+}
+
+/*oude nav styling*/
+/*
+    nav{
+        position: absolute;
+        margin-top: -36.9em;
+        margin-left:-28em;
+
+}
+*/
+
+
+.nav {
+position: absolute;
+    padding-right:24em;
+    padding-bottom: 34em;
+}
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+
+
+.giant-snowflake {
+font-size: 1.8em;
+    opacity: 1;
+    bottom: 7em;
+    }
+
+
+svg#handschoen {
+    transform: scale(0.6);
+    bottom: 10em;
+    overflow: hidden;
+    animation: 4s ster ease-in;
+}
+svg#handschoen4 {
+    transform: scale(0.6);
+    bottom: 10em;
+    overflow: hidden;
+    animation: 4s ster ease-in;
+}
+
+
+    body{
+        animation: AchtergrondVeranderen 4s ease-in;
+    }
+
+  @keyframes AchtergrondVeranderen{
+        0% {    background: #05346F;}
+        20% {    background: rebeccapurple;}
+        40% {    background: #05346F;}
+        60% {    background: rebeccapurple;}
+        80% {    background: #05346F;}
+
+
+    }
+}
+
+
+
+
+
 
 
 /*You have reached the end of the coding page.
-This project has been finished by Nassera Grampon on 23th of May 2020 */
+This project has been finished by Nassera Grampon on 23th of June 2020 */
