@@ -169,21 +169,35 @@ Ook kan de gebruiker van achtergrond verwisselen
 - **Schudden:** Als de gebruiker over de handschoen heen hovert schud deze heen en weer.
 - **Vallende sneeuwvlokken:** De vallende sneeuwvlokken vallen naar beneden op de achtergrond.
 - **Sneewvlokken 'vangen':** De gebruiker kan over de vallende sneeuwvlokken heen hoveren om deze zogenaamd te vangen.
-- **Veranderen van snoep en achtergrond:** de gebruiker kan in het menu een ander kleur snoepje selecteren.
+- **Veranderen van snoepverpakking** de gebruiker kan linksboven in het menu een ander kleur snoepje selecteren.
 - **Informatie knop**: De gebruiker kan rechtsboven op zijn scherm navigeren naar een informatie knop, na het hoveren over deze knop verschijnt er een tooltip waarin staat wat de gebruiker kan doen.
 - **Find the secret red PEZ candy wrapping:** Jouw taak is om als gebruiker de extra rode Pez verpakking te zoeken in het bestand, als je deze eenmaal gevonden hebt valt deze naar beneden met een leuke boodschap erbij.
 Maar ik ga jou natuurlijk niet zeggen waar deze is ;)!
 - **Achtergrond kleur veranderen**: De gebruiker kan d.m.v. het drukken van de keyboard toets nummer 5 de achtergrond naar paars aanpassen. Bij de mobiele weergave veranderd deze automatisch door middel van de keyframe functie
+
+### Experimenten:
 - **Clip path**: De handschoen fade in en out in de vorm van een ster.
-- **webkit-box-reflect-** Als je over de titel van de h1 hovert, zie je een weerspiegeling van deze letters in beeld.
+- **webkit-box-reflect:-** Als je over de titel van de h1 hovert, zie je een weerspiegeling van deze letters in beeld.
+- **cursors:** Verschillende cursors als de gebruiker over bepaalde elementen hovert met zijn muis.
+- **mix-blend-mode:** Een sneeuwvlokje die zich aanpast aan het scherm.
+
+
+**Waarom het geheime snoepje?**
+<br/>
+Vanuit mijn onderzoek die ik opnieuw gedaan heb, ben ik erachter gekomen dat PEZ veel lmited editon snoep ooit heeft gedistribueerd en daarom ook mijn reden waarom ik een roze limited edtion pez snoepje verstopt heb.
 
 
 ## Digitale Uitwerking.
-Desktop versie
-![desktop](https://user-images.githubusercontent.com/45563624/85401564-86b64e00-b55a-11ea-8c04-bb8ca43c94d5.gif)
+Desktop versie <br/>
+![desktop](https://user-images.githubusercontent.com/45563624/85549515-5e912280-b620-11ea-9356-db6b303534e0.gif)
 
-Mobiele versie
-![mobiel](https://user-images.githubusercontent.com/45563624/85401767-dac13280-b55a-11ea-9551-9f134b32697c.gif)
+>br/>
+
+Mobiele versie <br/>
+![mobiel](https://user-images.githubusercontent.com/45563624/85549483-56d17e00-b620-11ea-9711-66f24014ddf2.gif)
+
+<br/>
+
 
 
 ## Waarmee heb ik geëxperimenteerd?
@@ -192,7 +206,7 @@ Hieronder laat ik mijn stukjes code zien waar deze elementen in voor komen. Maar
 
 <br/>
 
-De zin "PEZ Candy" is een  expiriment waarbij ik de tekst wilde laten weerspiegelen met het idee alsof het boven water zweefde.
+**De zin "PEZ Candy" is een  expiriment waarbij ik de tekst wilde laten weerspiegelen met het idee alsof het boven water zweefde.**
 ```css
 h1:hover{
 color: #040202;
@@ -201,7 +215,7 @@ color: #040202;
 ```
 <br/>
 
-Het sneeuwvlokje rechts in beeld is uitwerkt met een mix-blend-mode: overlay, omdat ik dit geheim sneeuwvlokje niet wilde laten opvallen.
+**Het sneeuwvlokje rechts in beeld is uitwerkt met een mix-blend-mode: overlay, omdat ik dit geheim sneeuwvlokje niet wilde laten opvallen.**
 ```css
 .giant-snowflake {
     mix-blend-mode: overlay;
@@ -216,7 +230,7 @@ Het sneeuwvlokje rechts in beeld is uitwerkt met een mix-blend-mode: overlay, om
 
 <br/>
 
-Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.
+**Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.**
 Hiervoor heb ik een clip-path: polygon gebruikt om dit te kunnen doen. 
 
 ```css
@@ -264,7 +278,7 @@ De cursor veranderd bij het hoveren over de info-button naar een cursor in de vo
 ```
 
 <br/>
-De cursor veranderd bij het hoveren over het menu in beeld naar een handje met een vinger.
+**De cursor veranderd bij het hoveren over het menu in beeld naar een handje met een vinger.**
 
 ```css
 label {
@@ -277,15 +291,8 @@ label {
     cursor: pointer;
 }
 ```
-
-
-
 <br/>
-
-
-
-
-Het PEZ snoepje verschijnt in in handschoen als je met je muis erover heen hovert.
+**Het PEZ snoepje verschijnt in in handschoen als je met je muis erover heen hovert.**
 ```css
 svg#handschoen {
     align-items: center;
@@ -299,23 +306,6 @@ svg#handschoen {
     cursor: url('/design/pezursor.svg'), auto;
 ```
 <br/>
-
-
-
-
-
-```css
-```
-
-```css
-```
-
-
-
-
-
-
-
 
 ## Bronnen
 - PEZ. (z.d.). The History of PEZ - About Us. Geraadpleegd op 8 mei 2020, van https://us.pez.com/pages/history
