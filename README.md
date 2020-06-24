@@ -1,6 +1,6 @@
 ## URL naar mijn web-animatie
 De link hieronder verwijst door naar mijn animatie. <br/>
-https://dashingnass.github.io/Web-Animation/ <br/>
+https://dashingnass.github.io/webanimatieherkansing/ <br/>
 
 Bekijk de inhoudsopgave of scroll helemaal naar beneden om de digitale uitwerking te bekijken
 
