@@ -12,7 +12,7 @@ Bekijk de inhoudsopgave of scroll helemaal naar beneden om de digitale uitwerkin
 * [Mijn concept](#mijn-concept)
 * [Interacties en animaties](#interacties-en-animaties)
 * [Digitale uitwerking](#digitale-uitwerking)
-
+* [Waarmee heb ik geëxperimenteerd](#waarmee-heb-ik-geëxperimenteerd)
 * [Bronnen](#bronnen)
 
 
@@ -184,6 +184,11 @@ Desktop versie
 
 Mobiele versie
 ![mobiel](https://user-images.githubusercontent.com/45563624/85401767-dac13280-b55a-11ea-9551-9f134b32697c.gif)
+
+
+## Waarmee heb ik geëxperimenteerd?
+hou
+
 
 
 
