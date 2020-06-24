@@ -1,18 +1,3 @@
-/*In dit document toon ik een kleine inhoudsopgave wat je in dit CSS document/bestand kunt vinden.
-
-Ook is alles met duidelijke kopjes aangegeven in een comment-rule, zodat jij als docent het gemakkelijker kunt bekijken.
-
-– Algemene styling van de HTML elementen.
-– Secret Snowflake
-– Tooltip hover
-– Rozen handschoen (SVG)
-– Styling van de SVG
-– Sneeuwvlokken
-– Animaties
-– Media Queries voor de responsiveness
-*/
-
-
 /*================================================*/
 /*                ALGEMENE STYLING                */
 /*================================================*/
@@ -116,37 +101,8 @@ span {
 }
 
 
-/*oude menu styling*/
-/*
-nav{
-    position: absolute;
-    margin-top: -38.5em;
-    margin-left: -70em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    color: #ffffff;
-    background-color: transparent;
-}
-nav a{
-color: #ffffff;
-    text-decoration: none;
-padding: 16px;
-        background-color: transparent;
 
-
-}
-nav a:hover{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    cursor: pointer;
-
-}
-*/
-
-
-
+/*Navigatie linksboven*/
 .nav {
 position: absolute;
     padding-right:50em;
@@ -171,12 +127,9 @@ position: absolute;
     line-height: 70px;
 
 }
-
-
 .new {
     color: #54D17A;
 }
-
 label {
     margin: 0 40px 0 0;
     font-size: 26px;
@@ -184,13 +137,15 @@ label {
     display: none;
     width: 26px;
     float: right;
+    cursor: pointer;
 }
 #toggle {
     display: none;
 }
 
 
-
+/*Hierbij selecteer ik de 1ste, 2de, 3de of 4de, link uit de lijst en als deze wordt aangeklikt veranderd de kleur naar het woord. Door de Pseudo-class 'active' veranderd het alleen als jij erop klikt.
+.*/
 .menu a:active:nth-child(1){
     color: #FF495F;
     font-family: 'Poppins', sans-serif;
@@ -228,7 +183,8 @@ label {
 
 }
 
-.giant-snowflake {
+.iant-snowflake {
+    mix-blend-mode: overlay;
     overflow: hidden;
     bottom:9em;
     color: #FFF;
@@ -278,6 +234,7 @@ span p {
 /*                 ROZE HANDSCNOEN                */
 /*================================================*/
 
+/*Selectie van de handschoen op de html pagina*/
 svg#handschoen {
     align-items: center;
     bottom: 12em;
@@ -287,7 +244,7 @@ svg#handschoen {
     overflow: hidden;
     background-color: transparent;
     animation: 4s ster ease-in;
-
+    cursor: url('/design/pezursor.svg'), auto;
 }
 @keyframes ster {
   0% {
@@ -304,8 +261,10 @@ svg#handschoen:hover {
     animation: wobble-hor-bottom infinite;
     animation-duration: 1.2s;
     transform: rotate(50deg);
-
 }
+
+
+
 
 /*handschoen van de button "blauw"*/
 svg#handschoen4 {
@@ -331,6 +290,8 @@ svg#handschoen4:hover {
     animation: wobble-hor-bottom infinite;
     animation-duration: 1.2s;
     transform: rotate(50deg);
+        cursor: url('/design/pezursor.svg'), auto;
+
 
 
 }
@@ -338,7 +299,6 @@ svg#handschoen4:hover {
 /*Styling van de roze handschoen*/
     .pez0{
         fill:#AF589D;
-
 }
     .pez1{
         fill:#A0428E;
@@ -396,6 +356,7 @@ svg#handschoen4:hover {
 }
     .pez19{
         fill:#AEB6C1;
+
 }
     .pez20{
         fill:#C0C1C6;
@@ -487,32 +448,6 @@ svg#handschoen4:hover {
     }
 
 
-/*================================================*/
-/*                   PEZ SNOEPJE                  */
-/*================================================*/
-
-/*PEZ snoepje kleuren*/
-/*
-#pezCandyForm{}
-
-    .candyform0{
-        fill:#E6D7C5;
-}
-    .candyform1{
-        fill:#DEC8BB;
-}
-    .candyform2{
-        fill:#FFFFFF;
-}
-
-*/
-
-
-
-
-
-
-
 
 /*================================================*/
 /*                  SNEEUWVLOKKEN                 */
@@ -559,31 +494,26 @@ svg#handschoen4:hover {
     -webkit-animation-delay: 0s, 0s;
     left: 1%;
 }
-
 .snowflake:nth-of-type(1) {
     animation-delay: 1s, 1s;
     -webkit-animation-delay: 1s, 1s;
     left: 10%;
 }
-
 .snowflake:nth-of-type(2) {
     animation-delay: 6s, .5s;
     -webkit-animation-delay: 6s, .5s;
     left: 20%;
 }
-
 .snowflake:nth-of-type(3) {
     animation-delay: 4s, 2s;
     -webkit-animation-delay: 4s, 2s;
     left: 30%;
 }
-
 .snowflake:nth-of-type(4) {
     animation-delay: 2s, 2s;
     -webkit-animation-delay: 2s, 2s;
     left: 40%;
 }
-
 .snowflake:nth-of-type(5) {
     left: 50%;
     -webkit-animation-delay: 8s, 3s;
@@ -843,10 +773,18 @@ svg#handschoen4:hover {
 }
 
 
+
+
+
+
+
+
+
 /*================================================*/
 /*                  MEDIA QUERIES                 */
 /*================================================*/
 
+/*mobiel*/
 @media(min-width: 20em) and (max-width: 47em){
 
    h1 {
@@ -865,10 +803,10 @@ color: #040202;
 }
 p {
     opacity: 0;
-    bottom: 2.5em;
+    bottom: 4em;
     color: #ffff;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     position: absolute;
     text-align: center;
 }
@@ -881,19 +819,10 @@ p {
     margin-top:1.4em;
 }
     header>.tooltip {
+        overflow: hidden;
     margin-bottom: 30em;
     margin-right:42em;
 }
-
-/*oude nav styling*/
-/*
-    nav{
-        position: absolute;
-        margin-top: -36.9em;
-        margin-left:-28em;
-
-}
-*/
 
 
 .nav {
@@ -940,6 +869,7 @@ svg#handschoen4 {
     bottom: 10em;
     overflow: hidden;
     animation: 4s ster ease-in;
+
 }
 
 
