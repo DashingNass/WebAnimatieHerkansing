@@ -149,13 +149,14 @@ PEZ-snoepjes en -dispensers zijn wereldwijd verkrijgbaar in meer dan 90 landen e
 
 ## Over kunstwerk
 Dit kunstwerk is gemaakt voor een Pez advertising door Ludmila Hellmann-Kavalla (ook bekend als Mila Kavalla).
-Het kunstwerk is compleet handgeschilderd met gouachemacettes.
-Gemaakt in: Vienna 1950.
+Het kunstwerk is compleet handgeschilderd met gouachemacettes.  Omdat het om een PEZ advertentie gaat is dit kunstwerk gemaakt om mensen te verleiden om een PEZ snoepje te kopen.
+Dit kunstwerk is gemaakt in Vienna rond het jaartal 1950.
 
 ## Gekozen kunstwerk
 <img src="https://ia801003.us.archive.org/18/items/lfakavalla0009/LFA_Kavalla_0009_mid.jpg" width="300">
 Het kunstwerk is afkomstig van het Online Archive.
 De poster is gecreëerd door Kavalla, Ludmila (Designer) en Hellmann-Kavalla (Agency).
+
 
 ## Mijn concept
 Voor mijn concept en/-of opdracht heb ik voor de poster van het bekende PEZ snoepje te gebruiken.
