@@ -187,7 +187,108 @@ Mobiele versie
 
 
 ## Waarmee heb ik geëxperimenteerd?
-hou
+In mijn animatie heb ik geëxperimenteerd met een -webkit-box-reflect, mix-blend-mode en een clip-path.
+Hieronder laat ik mijn stukjes code zien waar deze elementen in voor komen. Maar ook de overige stukjes code die ik toegepast heb.
+
+<br/>
+
+De zin "PEZ Candy" is een  expiriment waarbij ik de tekst wilde laten weerspiegelen met het idee alsof het boven water zweefde.
+```css
+h1:hover{
+color: #040202;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, black);
+    }
+```
+<br/>
+
+Het sneeuwvlokje rechts in beeld is uitwerkt met een mix-blend-mode: overlay, omdat ik dit geheim sneeuwvlokje niet wilde laten opvallen.
+```css
+.giant-snowflake {
+    mix-blend-mode: overlay;
+    overflow: hidden;
+    bottom:9em;
+    color: #FFF;
+    font-size: 1.5em;
+    left: 3em;
+    text-shadow: 0 0 2px #FFF;
+}
+```
+
+<br/>
+
+Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.
+Hiervoor heb ik een clip-path: polygon gebruikt om dit te kunnen doen. 
+```css
+svg#handschoen {
+    align-items: center;
+    bottom: 12em;
+    justify-content: center;
+    position: absolute;
+    width: 20em;
+    overflow: hidden;
+    background-color: transparent;
+    animation: 4s ster ease-in;
+
+}
+@keyframes ster {
+  0% {
+    clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%, 0% 50%, 100% 100%, 50% 0%, 0% 100%, 100% 50%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 50% 100%, 50% 50%, 0% 50%, 50% 50%, 50% 0%, 50% 50%, 100% 50%);
+  }
+}
+```
+
+<br/>
+
+**Veranderen van de cursors**
+De cursor veranderd bij het hoveren over de info-button naar een cursor in de vorm van een vraagtekentje
+```css
+.infobutton {
+    height: 2em;
+    line-height: 1.000em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+    cursor: help;
+}
+```
+
+<br/>
+
+De cursor veranderd bij het hoveren over het menu in beeld naar een handje met een vinger.
+```css
+    label {
+        display: block;
+        cursor: pointer;
+    }
+```
+<br/>
+
+
+
+
+
+```css
+```
+
+
+```css
+```
+
+```css
+```
+
+
+
+
 
 
 
