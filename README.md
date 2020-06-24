@@ -15,6 +15,7 @@ Bekijk de inhoudsopgave of scroll helemaal naar beneden om de digitale uitwerkin
 * [Waarmee heb ik geëxperimenteerd](#waarmee-heb-ik-geëxperimenteerd)
 * [Bronnen](#bronnen)
 
+(Verder ijn mijn code vind je uitleg over bepaalde psueodo classes en overige code blocks)
 
 ## Geschiedenis van PEZ
 Pez is een Oostenrijks snoepmerk, bedacht door Eduard Haas III en is uitgevonden in Vienna, Australie rond het jaartal 1927.
