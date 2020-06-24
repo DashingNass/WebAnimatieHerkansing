@@ -198,6 +198,10 @@ Mobiele versie <br/>
 
 <br/>
 
+De dgitale uitwerking heb ik nu dus alleen gemaakt voor mobiele weergave en desktop.
+
+<br/>
+
 
 ## Waarmee heb ik geëxperimenteerd?
 In mijn animatie heb ik geëxperimenteerd met een -webkit-box-reflect, mix-blend-mode en een clip-path.
@@ -304,6 +308,8 @@ svg#handschoen {
     cursor: url('/design/pezursor.svg'), auto;
 ```
 <br/>
+
+
 
 ## Bronnen
 - PEZ. (z.d.). The History of PEZ - About Us. Geraadpleegd op 8 mei 2020, van https://us.pez.com/pages/history
