@@ -31,10 +31,9 @@ Kort daarna hebben ze de vorm aangepast naar de huidige vorm die we nu kennen
 Nieuw PEZ-snoepfabriek in Tsjechoslowakije voor massaproductie.
 
 </br>
-**1948:**
-</br>
-De suikertabletten worden verkocht in kleine zakjes.
 
+**1948:**</br>
+De suikertabletten worden verkocht in kleine zakjes.
 </br>
 
 **1949:**</br>
