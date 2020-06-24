@@ -218,6 +218,7 @@ Het sneeuwvlokje rechts in beeld is uitwerkt met een mix-blend-mode: overlay, om
 
 Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.
 Hiervoor heb ik een clip-path: polygon gebruikt om dit te kunnen doen. 
+
 ```css
 svg#handschoen {
     align-items: center;
@@ -264,12 +265,21 @@ De cursor veranderd bij het hoveren over de info-button naar een cursor in de vo
 
 <br/>
 De cursor veranderd bij het hoveren over het menu in beeld naar een handje met een vinger.
+
 ```css
-    label {
-        display: block;
-        cursor: pointer;
-    }
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    cursor: pointer;
+}
 ```
+
+
+
 <br/>
 
 
