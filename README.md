@@ -246,6 +246,7 @@ svg#handschoen {
 <br/>
 
 **Veranderen van de cursors**
+<br/>
 De cursor veranderd bij het hoveren over de info-button naar een cursor in de vorm van een vraagtekentje
 ```css
 .infobutton {
@@ -262,7 +263,6 @@ De cursor veranderd bij het hoveren over de info-button naar een cursor in de vo
 ```
 
 <br/>
-
 De cursor veranderd bij het hoveren over het menu in beeld naar een handje met een vinger.
 ```css
     label {
@@ -275,9 +275,23 @@ De cursor veranderd bij het hoveren over het menu in beeld naar een handje met e
 
 
 
-
+Het PEZ snoepje verschijnt in in handschoen als je met je muis erover heen hovert.
 ```css
+svg#handschoen {
+    align-items: center;
+    bottom: 12em;
+    justify-content: center;
+    position: absolute;
+    width: 20em;
+    overflow: hidden;
+    background-color: transparent;
+    animation: 4s ster ease-in;
+    cursor: url('/design/pezursor.svg'), auto;
 ```
+<br/>
+
+
+
 
 
 ```css
