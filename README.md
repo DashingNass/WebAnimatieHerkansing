@@ -21,18 +21,18 @@ Pez is een Oostenrijks snoepmerk, bedacht door Eduard Haas III en is uitgevonden
 </br>
 Het snoepje was origineel een alternatieve vervanging voor mensen die rookte.
 De naam PEZ stamt af van het Duitse woord ‘PfeffErminZ. Wat dus staat voor pepermunt.
-
 De originele vorm van het PEZ-snoepje was rond en werden PEZ-drops genoemd.
 Kort daarna hebben ze de vorm aangepast naar de huidige vorm die we nu kennen
 
 
 ## PEZ Timeline
-**1935:**</br>
+**1935:**
+</br>
 Nieuw PEZ-snoepfabriek in Tsjechoslowakije voor massaproductie.
 
 </br>
-
-**1948:**</br>
+**1948:**
+</br>
 De suikertabletten worden verkocht in kleine zakjes.
 
 </br>
@@ -160,11 +160,11 @@ De poster is gecreëerd door Kavalla, Ludmila (Designer) en Hellmann-Kavalla (Ag
 
 ## Mijn concept
 Voor mijn concept en/-of opdracht heb ik voor de poster van het bekende PEZ snoepje te gebruiken.
-</br>De reden waarom ik hiervoor kies is omdat ik zelf op jongere leeftijd ook ooit eens zo een PEZ-candy heb gegeten en dus zodanig een dispenser in bezit had ~~(wellicht heb ik deze nog ergens verweg in huis staan).~~
+</br>De reden waarom ik hiervoor kies is omdat ik zelf op jongere leeftijd ook ooit eens zo een PEZ-candy heb gegeten en dus zodanig een dispenser in bezit had.
 </br>
 Mijn idee om deze poster interactief te maken is door de handschoen heen en weer te laten schudden en de sneeuwvlokken op de achtergrond te laten bewegen. En wellicht ook een verborgen snoepje te verstoppen waarbij de gebruiker het moet zoeken. En verschillende soorten snoepverpakkingen selecteren, omdat PEZ niet een soort snoep in bezit heeft!
 </br>
-Ook kan de gebruiker van achtergrond verwisselen
+Ook kan de gebruiker van achtergrond verwisselen.
 
 ## Interacties en Animaties
 - **Schudden:** Als de gebruiker over de handschoen heen hovert schud deze heen en weer.
@@ -182,7 +182,6 @@ Maar ik ga jou natuurlijk niet zeggen waar deze is ;)!
 - **cursors:** Verschillende cursors als de gebruiker over bepaalde elementen hovert met zijn muis.
 - **mix-blend-mode:** Een sneeuwvlokje die zich aanpast aan het scherm.
 
-
 **Waarom het geheime snoepje?**
 <br/>
 Vanuit mijn onderzoek die ik opnieuw gedaan heb, ben ik erachter gekomen dat PEZ veel lmited editon snoep ooit heeft gedistribueerd en daarom ook mijn reden waarom ik een roze limited edtion pez snoepje verstopt heb.
@@ -192,13 +191,12 @@ Vanuit mijn onderzoek die ik opnieuw gedaan heb, ben ik erachter gekomen dat PEZ
 Desktop versie <br/>
 ![desktop](https://user-images.githubusercontent.com/45563624/85549515-5e912280-b620-11ea-9356-db6b303534e0.gif)
 
->br/>
+<br/>
 
 Mobiele versie <br/>
 ![mobiel](https://user-images.githubusercontent.com/45563624/85549483-56d17e00-b620-11ea-9711-66f24014ddf2.gif)
 
 <br/>
-
 
 
 ## Waarmee heb ik geëxperimenteerd?
@@ -228,7 +226,6 @@ color: #040202;
     text-shadow: 0 0 2px #FFF;
 }
 ```
-
 <br/>
 
 **Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.**
