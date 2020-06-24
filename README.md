@@ -162,7 +162,7 @@ De poster is gecreëerd door Kavalla, Ludmila (Designer) en Hellmann-Kavalla (Ag
 Voor mijn concept en/-of opdracht heb ik voor de poster van het bekende PEZ snoepje te gebruiken.
 </br>De reden waarom ik hiervoor kies is omdat ik zelf op jongere leeftijd ook ooit eens zo een PEZ-candy heb gegeten en dus zodanig een dispenser in bezit had ~~(wellicht heb ik deze nog ergens verweg in huis staan).~~
 </br>
-Mijn idee om deze poster interactief te maken is door de handschoen heen en weer te laten schudden en de sneeuwvlokken op de achtergrond te laten bewegen. En wellicht ook een verborgen snoepje te verstoppen waarbij de gebruiker het moet zoeken.
+Mijn idee om deze poster interactief te maken is door de handschoen heen en weer te laten schudden en de sneeuwvlokken op de achtergrond te laten bewegen. En wellicht ook een verborgen snoepje te verstoppen waarbij de gebruiker het moet zoeken. En verschillende soorten snoepverpakkingen selecteren, omdat PEZ niet een soort snoep in bezit heeft!
 </br>
 Ook kan de gebruiker van achtergrond verwisselen
 
@@ -176,7 +176,7 @@ Ook kan de gebruiker van achtergrond verwisselen
 Maar ik ga jou natuurlijk niet zeggen waar deze is ;)!
 - **Achtergrond kleur veranderen**: De gebruiker kan d.m.v. het drukken van de keyboard toets nummer 5 de achtergrond naar paars aanpassen. Bij de mobiele weergave veranderd deze automatisch door middel van de keyframe functie
 
-### Experimenten:
+### Experimenten: (Scroll verder om meer hier over te lezen)
 - **Clip path**: De handschoen fade in en out in de vorm van een ster.
 - **webkit-box-reflect:-** Als je over de titel van de h1 hovert, zie je een weerspiegeling van deze letters in beeld.
 - **cursors:** Verschillende cursors als de gebruiker over bepaalde elementen hovert met zijn muis.
