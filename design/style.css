@@ -183,12 +183,12 @@ label {
 
 }
 
-.iant-snowflake {
+.giant-snowflake {
     mix-blend-mode: overlay;
     overflow: hidden;
     bottom:9em;
     color: #FFF;
-    font-size: 1.5em;
+    font-size: 1.8em;
     left: 3em;
     text-shadow: 0 0 2px #FFF;
 }
