@@ -311,6 +311,8 @@ svg#handschoen {
 ```
 <br/>
 
+voor het geval de cursor niet werkt, heb ik ook maar een screenshot van gemaakt.
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/45563624/85662182-dcecd380-b6b7-11ea-8fd1-6dc85cf3d44e.gif)
 
 
 ## Bronnen
