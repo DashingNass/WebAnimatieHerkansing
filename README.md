@@ -232,8 +232,8 @@ color: #040202;
 ```
 <br/>
 
-**Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.**
-Hiervoor heb ik een clip-path: polygon gebruikt om dit te kunnen doen. 
+**Voordat je als gebruiker er over heen kunt hoveren met je muis zie je een ster-achtige vorm die zich vertoond en terugtrekt vanuit de handschoen zelf.
+Hiervoor heb ik een clip-path: polygon gebruikt om dit te kunnen doen.**
 
 ```css
 svg#handschoen {
